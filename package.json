@@ -1,0 +1,20 @@
+{
+  "name": "texteditor",
+  "version": "1.0.0",
+  "description": "Bulk file text editor with string search",
+  "bin": "edit.js",
+  "main": "edit.js",
+  "scripts": {
+    "start": "node edit.js"
+  },
+  "keywords": [],
+  "author": "ohmcodes",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": ["logs/**/*"]
+  }
+}
